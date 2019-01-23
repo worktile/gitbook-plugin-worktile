@@ -9,11 +9,11 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
   var style = ''
   var link = ''
   gitbook.events.bind('start', function (e, config) {
-    src = config['xingxing-tinyfold-chapters']['src']
-    style = config['xingxing-tinyfold-chapters']['style']
-    link = config['xingxing-tinyfold-chapters']['link']
-    link = config['xingxing-tinyfold-chapters']['link']
-    icp = config['xingxing-tinyfold-chapters']['icp']
+    src = config['worktile']['src']
+    style = config['worktile']['style']
+    link = config['worktile']['link']
+    link = config['worktile']['link']
+    icp = config['worktile']['icp']
   })
 
   var insertLogo = function (src, style, link) {
