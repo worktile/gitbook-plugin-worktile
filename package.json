@@ -1,0 +1,34 @@
+{
+    "name": "gitbook-plugin-worktile",
+    "version": "0.2.0",
+    "license": "MIT",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:worktile/gitbook-plugin-worktile.git"
+    },
+    "description": "gitbook插件，worktile帮助插件合集",
+    "engines": {
+        "gitbook": ">1.x.x"
+    },
+    "main": "index.js",
+    "gitbook": {
+        "properties": {
+            "src": {
+                "type": "string",
+                "default": "http://www.example.com/logo.png",
+                "title": "Logo Image URL"
+            },
+            "style": {
+                "type": "string",
+                "default": "background: none;",
+                "title": "Custom CSS"
+            },
+            "link": {
+                "type": "string",
+                "default": "http://www.example.com",
+                "title": "Logo Link URL"
+            }
+        }
+    }
+}
