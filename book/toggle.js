@@ -14,6 +14,8 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
     link = config['worktile']['link']
     link = config['worktile']['link']
     icp = config['worktile']['icp']
+    var shortcut = config['worktile']['shortcut']
+    $("link[type='image/x-icon']").attr('href', shortcut);
   })
 
   var insertLogo = function (src, style, link) {
